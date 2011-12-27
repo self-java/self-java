@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<option>
+    <!-- 数据库配置 -->
+	<db.driverClassName>oracle.jdbc.driver.OracleDriver</db.driverClassName>
+	<db.url>jdbc:oracle:thin:@10.192.40.15:1521:MYORA10</db.url>
+	<db.username>javaoas</db.username>
+	<db.password>oas</db.password>
+	<db.dbSchame>shark</db.dbSchame>
+	<db.timeout>10</db.timeout>
+	<db.maxactive>20</db.maxactive>
+	<db.initialsize>5</db.initialsize>
+	<db.dbConnType>dbcp</db.dbConnType>
+	<db.dbType>oracle</db.dbType>
+	<jndi.name>shark</jndi.name>
+    <!-- ********* -->
+	<!-- 目录配置 -->
+	<java.naming.factory.initial>com.sun.jndi.ldap.LdapCtxFactory</java.naming.factory.initial>
+	<java.naming.provider.url>ldap://10.192.40.2</java.naming.provider.url>
+	<java.naming.security.principal>cn=root</java.naming.security.principal>
+	<java.naming.security.credentials><![CDATA[passw0rd]]></java.naming.security.credentials>
+	<com.sun.jndi.ldap.connect.pool>true</com.sun.jndi.ldap.connect.pool>
+	<com.sun.jndi.ldap.connect.pool.maxsize>50</com.sun.jndi.ldap.connect.pool.maxsize>
+	<com.sun.jndi.ldap.connect.pool.initsize>5</com.sun.jndi.ldap.connect.pool.initsize>
+	<com.sun.jndi.ldap.connect.pool.prefsize>5</com.sun.jndi.ldap.connect.pool.prefsize>
+	<com.sun.jndi.ldap.connect.pool.timeout>10000</com.sun.jndi.ldap.connect.pool.timeout>
+	
+	<com.talkweb.jndi.ldap.groupsbase>cn=groups,dc=hq,DC=unicom</com.talkweb.jndi.ldap.groupsbase>
+	<com.talkweb.jndi.ldap.usersbase>cn=users,dc=hq,DC=unicom</com.talkweb.jndi.ldap.usersbase>
+	<com.talkweb.jndi.ldap.orgsbase>cn=org,dc=hq,DC=unicom</com.talkweb.jndi.ldap.orgsbase>
+	<!-- ********* -->
+</option>

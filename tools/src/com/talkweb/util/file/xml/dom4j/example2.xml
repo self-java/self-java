@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<!--An XML catalog --> 
+<?target instruction?>
+	<journal title="XML Zone" publisher="IBM developerWorks">
+		<article level="Introductory" date="October-2002">
+			<title>Create flexible and extensible XML schemas</title>
+			<author>
+				<firstname>Ayesha</firstname>
+				<lastname>Malik</lastname>
+			</author>
+		</article>
+	</journal>
+</catalog>

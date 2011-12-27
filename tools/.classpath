@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/db/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/db/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/db/oracle/classes12.jar"/>
+	<classpathentry kind="lib" path="lib/ldap/ldap.jar"/>
+	<classpathentry kind="lib" path="lib/log/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="lib/xml/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/xml/dom4j/dom4j-2.0.0-ALPHA-2.jar"/>
+	<classpathentry kind="lib" path="lib/xml/dom4j/jaxen-1.1.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
